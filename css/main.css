@@ -1,0 +1,187 @@
+body {
+    background: url("../images/main_bg.jpg") repeat-x scroll left top transparent;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+a:link, a:visited{
+    color: #222;
+    text-decoration: none;
+}
+a:hover{
+    color: darkred;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 991px;
+}
+
+/* HEADER STYLES */
+#header {
+    height: 90px;
+    position: relative;
+}
+#logo {
+    position: absolute;
+    top: 25px;
+}
+#logo a {
+    display: block;
+    width: 195px;
+    height: 62px;
+    text-indent: -999999px;
+    background: url("../images/logo.png") no-repeat top left;
+}
+#logo .hometitle{
+}
+
+#search{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+#main-menu {
+    background: url("../images/nav_bg.jpg") repeat scroll 0 0 transparent;
+    border-radius: 10px 10px 10px 10px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 750px;
+}
+#main-menu-list{}
+#main-menu-list > li {
+    display: inline-block;
+    float: left;
+}
+#main-menu-list > li > a {
+    color: #FFFFFF;
+    font-weight: bold;
+    display: block;
+    height: 33px;
+    padding: 0 14px;
+    line-height: 33px;
+}
+#main-menu-list > li:not(:last-child) {
+    background: url("../images/nav_sep.png") no-repeat right -5px;
+}
+#main-menu-list > li > a:hover {
+    background-color: #91181E;
+}
+#main-menu-list > li > ul.sub-menu {
+    background-color: #DD262E;
+    box-shadow: 1px 2px 4px darkred;
+    color: #FFFFFF;
+    max-width: 250px;
+    min-width: 160px;
+    position: absolute;
+    width: auto;
+    display: none;
+    z-index: 999;
+}
+#main-menu-list > li:hover > ul.sub-menu { display: block;}
+#main-menu-list > li > ul.sub-menu > li{}
+#main-menu-list > li > ul.sub-menu > li > a {
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+#main-menu-list > li > ul.sub-menu > li > a:hover {
+    background-color: darkred;
+}
+#main-menu-list > li > ul.sub-menu > li:not(:last-child) > a {
+    border-bottom: 1px dotted #ca102b;
+}
+#main-menu-list > li > ul.sub-menu > li > ul.sub-menu {
+    background-color: #DD262E;
+    border-left: 3px solid red;
+    box-shadow: 1px 2px 4px darkred;
+    color: #FFFFFF;
+    left: 150px;
+    max-width: 250px;
+    min-width: 160px;
+    position: absolute;
+    width: auto;
+    display: none;
+    z-index: 999;
+    margin-top: -31px;
+}
+#main-menu-list > li > ul.sub-menu > li:hover > ul.sub-menu {
+    display: block;
+}
+#main-menu-list > li > ul.sub-menu > li > ul.sub-menu > li{}
+#main-menu-list > li > ul.sub-menu > li > ul.sub-menu > li > a{
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+#main-menu-list > li > ul.sub-menu > li > ul.sub-menu > li:not(:last-child) > a {
+    border-bottom: 1px dotted #ca102b;
+}
+#main-menu-list > li > ul.sub-menu > li > ul.sub-menu > li > a:hover{
+    background-color: darkred;
+
+}
+
+/* FOOTER STYLES */
+#footer {
+    background: url("../images/bg_footer.jpg") repeat-x scroll center bottom transparent;
+    border-top: 1px solid #EEEEEE;
+    height: 130px;
+    padding: 10px;
+    position: relative;
+    width: 986px;
+}
+
+#footer-menu {
+    margin-bottom: 10px;
+}
+#footer-menu-list {
+    overflow: hidden;
+}
+#footer-menu-list > li {
+    float: left
+}
+#footer-menu-list > li > a {
+    color: #DF2730;
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 5px;
+}
+#footer-menu-list > li:not(:last-child) > a {
+    border-right: 1px solid #DF2730;
+}
+#footer-menu-list > li > a:hover {}
+#footer-menu-list > li > ul {}
+#footer-menu-list > li > ul > li {}
+#footer-menu-list > li > ul > li > a {}
+#footer-menu-list > li > ul > li > a:hover {}
+
+#contact-info {
+    color: #8A8A8A;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+#copyright {
+    color: #8A8A8A;
+    float: right;
+    font-weight: bold;
+    padding-right: 10px;
+}
+#copyright a {
+    color: #DF2730;
+}
+
+/* MAIN STYLES */
+#main {
+    margin-bottom: 5px;
+}

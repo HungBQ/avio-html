@@ -1,0 +1,51 @@
+#main-flash {
+    height: 426px;
+}
+#sub-flash {
+    height: 186px;
+    background-color: #DF272F;
+}
+#sub-flash-left {
+    background: url("../images/home-left.jpg") no-repeat scroll left top transparent;
+    float: left;
+    height: 186px;
+    width: 187px;
+    position: relative;
+}
+#sub-flash-center {
+    float: left;
+}
+#sub-flash-right {
+    background: url("../images/home-right.jpg") no-repeat top right;
+    width: 50px;
+    height: 186px;
+    float: left;
+}
+#imei-search {
+    left: 14px;
+    position: absolute;
+    top: 25px;
+}
+#imei-search input[type=text]{
+    border: 1px solid #DADADA;
+    height: 17px;
+    width: 135px;
+}
+#imei-search input[type="submit"] {
+    background: url("../images/imeisubmit.jpg") no-repeat scroll left top transparent;
+    border: 0 none;
+    float: right;
+    height: 22px;
+    text-indent: -9999px;
+    width: 22px;
+}
+#skype_support {
+    left: 100px;
+    position: absolute;
+    top: 105px;
+}
+#yahoo_support {
+    left: 30px;
+    position: absolute;
+    top: 150px;
+}
